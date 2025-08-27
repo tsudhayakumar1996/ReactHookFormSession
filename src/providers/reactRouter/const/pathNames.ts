@@ -4,5 +4,11 @@
  */
 export const PATH_NAMES = {
     HOME: '/',
-    REGISTER_FIELDS: '/register-fields'
+    REGISTER_FIELDS: '/register-fields',
+    VALIDATION: '/validation',
+    INTEGRATION_WITH_UI_LIBRARIES: '/integration-with-ui-libraries',
+    SCHEMA_VALIDATION: '/schema-validation',
+    USE_FORM_API: '/use-form-api',
+    USE_FORM_CONTEXT: '/use-form-context',
+    USE_FIELD_ARRAY: '/use-field-array'
 }

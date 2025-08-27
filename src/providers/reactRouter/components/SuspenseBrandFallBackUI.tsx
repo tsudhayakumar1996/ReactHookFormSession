@@ -10,7 +10,21 @@ import { Suspense, type ReactNode } from 'react'
  * @returns
  */
 const SuspenseBrandFallBackUI = ({ children }: { children: ReactNode }) => {
-    return <Suspense fallback={<Typography variant="h3">Suspense Loading...</Typography>}>{children}</Suspense>
+    return (
+        <Suspense
+            fallback={
+                <Typography
+                    variant="h3"
+                    textAlign="center"
+                    mt={4}
+                >
+                    ...
+                </Typography>
+            }
+        >
+            {children}
+        </Suspense>
+    )
 }
 
 export default SuspenseBrandFallBackUI
